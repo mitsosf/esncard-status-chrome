@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="X-UA-Compatible" content="ie=edge">
+    <title>ESNcard</title>
+    <link rel="stylesheet" href="popup.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+          crossorigin="anonymous"/>
+
+    <script src="axios.js"></script>
+</head>
+<body>
+    <div class="modal-header">
+        <h1 class="logo">
+            <img class="logo-icon" src="images/icon.png" alt="ESN logo"> ESNcard Status<span class="version">(0.1.0)</span>
+        </h1>
+    </div>
+    <div class="modal-content">
+        <input id="esncard" name="esncard" type="text">
+        <button id="esncard_submit">Check</button>
+    </div>
+    <div class="modal-result">
+        <span id="result"></span>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
