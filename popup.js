@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000/'
+const url = 'https://esncardstatus.frangiadakis.com?esncard='
 
 document.getElementById("esncard_submit").addEventListener("click", getCardInfo);
 
